@@ -1,0 +1,37 @@
+/* Estilos generales */
+.root {
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-prompt-text-fill: gray;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #20124d;
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, #999999, 10, 0, 0, 0);
+}
+
+.button: focus  {
+    -fx-background-color: #cfe2f3;
+    -fx-text-fill: black;
+}
+
+.result-text-area {
+	-fx-font-family: "Tahoma";
+	-fx-font-size: 16px;
+	-fx-text-fill: red;
+	-fx-effect: dropshadow(gaussian, #999999, 10, 0, 0, 0);
+}
+
